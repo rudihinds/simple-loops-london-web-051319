@@ -18,15 +18,14 @@ def times_iterator(number_of_times)
   number_of_times.times do
     puts "Welcome to Flatiron School's Web Development Course!"
   end
-
 end
 
 def while_iterator(number_of_times)
   number = 1
   while number <= number_of_times do
-  puts "Welcome to Flatiron School's Web Development Course!"
+    puts "Welcome to Flatiron School's Web Development Course!"
   number += 1
-end
+  end
 end
   
   # code your solution here using the "while" keyword
